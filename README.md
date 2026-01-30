@@ -251,5 +251,3 @@ This project is intended for **academic and research use** only.
 Deep Learning | Medical Imaging | GANs | Vision Transformers
 
 ---
-
-⭐ If this project helped you, consider starring the repository.

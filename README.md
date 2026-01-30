@@ -1,0 +1,2 @@
+# Chest-X-ray-Pneumothorax-Detection-using-GANs-CNNs-Vision-Transformers-Uncertainty-Quantification
+This project presents a comprehensive deep learning pipeline for Pneumothorax detection in chest X-rays, combining data generation (CycleGAN), multiple classification models (CNN, Multi-task CNN, Vision Transformer, Ensemble), and uncertainty quantification to improve robustness and clinical reliability.

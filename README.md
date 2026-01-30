@@ -10,7 +10,7 @@ The work focuses not only on classification accuracy, but also on:
 
 ---
 
-## 🔍 Key Contributions
+## Key Contributions
 
 * **CycleGAN-based image generation** for Pneumothorax ↔ No Finding domain translation
 * **Balanced and domain-aware dataset splitting**
@@ -26,7 +26,7 @@ The work focuses not only on classification accuracy, but also on:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -83,7 +83,7 @@ The work focuses not only on classification accuracy, but also on:
 
 ---
 
-## 🧠 Models Overview
+## Models Overview
 
 ### 1. CycleGAN (Image Generation)
 
@@ -123,7 +123,7 @@ The work focuses not only on classification accuracy, but also on:
 
 ---
 
-## 📊 Dataset Preparation
+## Dataset Preparation
 
 ### Balanced Splits
 
@@ -142,7 +142,7 @@ Key scripts:
 
 ---
 
-## 🚀 Training
+## Training
 
 ### CycleGAN
 
@@ -180,7 +180,7 @@ python train_real_vs_fake_cnn.py \
 
 ---
 
-## 📈 Evaluation & Comparison
+## Evaluation & Comparison
 
 * **ROC curves**
 * **Confusion matrices**
@@ -198,7 +198,7 @@ Key scripts:
 
 ---
 
-## 🔬 Uncertainty Quantification (Clinical Safety)
+## Uncertainty Quantification (Clinical Safety)
 
 * Uses **Monte Carlo Dropout**
 * Runs multiple stochastic forward passes
@@ -223,7 +223,7 @@ Outputs:
 
 ---
 
-## 🧪 Explainability
+## Explainability
 
 * **Grad-CAM visualizations**
 * Highlights regions influencing predictions
@@ -231,7 +231,7 @@ Outputs:
 
 ---
 
-## ⚠️ Notes & Limitations
+## Notes & Limitations
 
 * Synthetic data quality must be validated using the Real vs Synthetic classifier
 * CycleGAN does not provide validation metrics by design
@@ -239,23 +239,13 @@ Outputs:
 
 ---
 
-## 🔮 Future Work
-
-* Diffusion-based medical image synthesis
-* Calibration techniques (Temperature scaling)
-* Multi-disease classification
-* External dataset validation
-* Human-in-the-loop evaluation
-
----
-
-## 📜 License
+##  License
 
 This project is intended for **academic and research use** only.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻Author
 
 **VidhyaShankara Bharathi**
 Deep Learning | Medical Imaging | GANs | Vision Transformers
